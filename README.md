@@ -35,8 +35,14 @@ A memory allocator library built from scratch in C to understand how malloc, fre
 - Fragmentation comparison
 - Performance vs glibc malloc
 
+### Advanced (Feeling Lucky)
+- **Thread-Safe Allocator** - Mutex locks, per-thread arenas, lock-free free list
+- **Garbage Collector** - Mark-and-sweep, reference counting, root set scanning
+
 ## Resources
 - [malloc tutorial (danluu)](https://danluu.com/malloc-tutorial/) - Primary reference
 - [Write a simple memory allocator](https://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator) - Step-by-step guide
 - [glibc malloc internals](https://sourceware.org/glibc/wiki/MallocInternals) - How real malloc works
 - [Jacob Sorber](https://www.youtube.com/c/JacobSorber) - Memory videos
+- [Baby's First Garbage Collector](https://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/) - GC tutorial
+- [tcmalloc](https://google.github.io/tcmalloc/design.html) - Thread-caching malloc design
