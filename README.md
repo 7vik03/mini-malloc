@@ -2,6 +2,11 @@
 
 A memory allocator library built from scratch in C to understand how malloc, free, and memory management actually work.
 
+## Currently Working On
+- **Allocator Type** - Free List
+- **Core Functions** - malloc, free
+- **Internals** - Block Headers, sbrk, first-fit search
+
 ## What I'm Implementing
 
 ### Core Functions
