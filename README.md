@@ -10,7 +10,7 @@ A memory allocator library built from scratch in C to understand how malloc, fre
 - realloc (resize allocation)
 - calloc (allocate + zero initialize)
 
-### Allocator Types
+### Allocator Types (Cause different problems need different solutions)
 - **Free List** - General purpose, first-fit/best-fit search
 - **Arena** - Bump pointer allocation, bulk free
 - **Pool** - Fixed-size blocks, O(1) alloc/free
